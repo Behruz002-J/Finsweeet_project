@@ -1,65 +1,71 @@
-import logo from "../../assets/logos/Logo-special.svg";
 import turn from "../../assets/icons/icon.svg";
-import meet from "../../assets/images/Header_Image.png"
-import logoipsum1 from '../../assets/logos/logoispum.svg'
-import logoipsum2 from "../../assets/logos/Logoipum2.svg"
-// import logoipsum3 from '../../assets/logos/logoispum.svg'
-// import logoipsum4 from '../../assets/logos/logoispum.svg'
-import logoipsum5 from '../../assets/logos/Logoipsum5.svg'
-
+import meet from "../../assets/images/Header_Image.png";
+import logoipsum1 from "../../assets/logos/logoispum.svg";
+import logoipsum2 from "../../assets/logos/Logoipum2.svg";
+import logoipsum3 from '../../assets/logos/logoispum.svg'
+import logoipsum4 from '../../assets/logos/logoispum.svg'
+import logoipsum5 from "../../assets/logos/Logoipsum5.svg";
+import MainLogo from "../../assets/logos/Logo-special.svg";
 
 export default function Header() {
   return (
-    <div className="w-[1600px] bg-[#232536] h-250 pt-0 px-40 mx-auto">
-        
-    <div className=" w-[1600px] h-[80px] flex mx-auto">
-      <nav className="flex justify-between items-center w-full px-10 ">
-        
-        <div className="flex items-center  gap-[460px] ">
-          <img src={logo} alt="logo" />
+    <header className="bg-[#232536] text-white">
+      <div className="border-b border-[#FFFFFF0D]">
+        <div className="max-w-[1200px] mx-auto px-4">
+          
+          {/* NAVBAR  bu yerdan boshladim*/}
+          <nav className="flex justify-between items-center h-20">
+            <img src={MainLogo} alt="logo" />
 
-          <ul className="flex gap-6 items-center text-white">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact us</a></li>
+            <ul className="flex gap-8 items-center">
+              <li className="border-t-2 border-[#FFA155] py-5">Home</li>
+              <li className="opacity-60 hover:opacity-100">Service</li>
+              <li className="opacity-60 hover:opacity-100">Company</li>
+              <li className="opacity-60 hover:opacity-100">Career</li>
+              <li className="opacity-60 hover:opacity-100">Blog</li>
+            </ul>
+          </nav>
 
-            <li>
-              <a className="flex items-center gap-2 text-[#FFD3AF]" href="#">
-                Clone project <img src={turn} alt="" />
-              </a>
-            </li>
-          </ul>
+          {/* HERO  I started in here */}
+          <div className="flex items-center justify-between mt-16">
+            <div className="max-w-xl">
+              <h1 className="text-[56px] leading-[68px] font-semibold">
+                Transform Your Idea Into Reality with Finsweet
+              </h1>
+
+              <p className="mt-6 leading-6">
+                The entire Finsweet team knows what's good with Webflow and you can too.
+              </p>
+
+              <button className="mt-8 flex items-center gap-3 bg-[#444CFC] px-6 py-4">
+                Request quote
+                <img src={turn} className="w-5" alt="arrow" />
+              </button>
+            </div>
+
+            <img src={meet} className="max-w-md" alt="meet" />
+          </div>
+
+          {/* LOGOS  company logos*/}
+          <div className="mt-16 flex items-center justify-between gap-8">
+            <div>
+              <p className="text-sm opacity-70">Our Clients</p>
+              <h5 className="font-bold">We've Worked with</h5>
+            </div>
+
+            <div className="flex  items-center">
+              <img src={logoipsum1} alt="" />
+              <img src={logoipsum2} alt="" />
+              <img src={logoipsum3} alt="" />
+              <img src={logoipsum4} alt="" />
+              <img src={logoipsum5} alt="" />
+            </div>
+          </div>
+
         </div>
+      </div>
+    </header>
 
-      </nav>
-    </div>
-    <div className="flex flex-row ">
-  <div className="mt-[200px] w-[624px] h-[420px]">
-    <h1 className="font-semibold text-[56px] leading-[68px] tracking-[0px] text-[#f1f1f1]">Transform Your Idea Into Reality with Finsweet</h1>
-    <p className="text-[16px] font-normal text-[#f1f1f1] line-[24px] mt-[24px]">The entire Finsweet team knows what's good with Webflow and <br /> you can too with 1 week and a good attitude.</p>
-   <button className="w-[219px] h-[64px] flex items-center justify-center bg-[#444CFC] text-[#f1f1f1] mt-[32px] text-[16px] gap-3">
-  Request quote
-  <img className="w-[20px]" src={turn} alt="" />
-</button>
-  </div>
-  <div className="mt-[96px]">
-    <img className=" " src={meet} alt="meet" />
-  </div>
-    </div>
-    <div className="logos">
-         <div className="client">
-                <p className='text-[#f1f1f1]'>Our Clients</p>
-                <h5>We've Worked with</h5>
-                </div>
-                <div className="">
-               <img src={logoipsum1} alt="logoipsum1" />
-               <img src={logoipsum2} alt="logoipsum2" />
-               <img className="text-amber-400" src={logoipsum5} alt="logoipsum5" /> 
-                </div>
-    </div>
-    </div>
+    
   );
 }
