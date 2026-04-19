@@ -47,7 +47,7 @@
                   <div className="experience">
                          <h1 className='text-[36px]'>10 yrs</h1>
                     <img src={percent} alt="" />
-                    <span>Project Delivered</span>
+                    <span className='text-[16px] mt-[4px]'>Project Delivered</span>
                   </div>
                  </div>
                   <div className="read-us ml-122.5  mt-22.5 ">
