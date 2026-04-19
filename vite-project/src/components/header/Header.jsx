@@ -16,14 +16,20 @@ export default function Header() {
           {/* NAVBAR  bu yerdan boshladim*/}
           <nav className="flex justify-between items-center h-20">
             <img src={MainLogo} alt="logo" />
-
-            <ul className="flex gap-8 items-center">
-              <li className="border-t-2 border-[#FFA155] py-5">Home</li>
-              <li className="opacity-60 hover:opacity-100">Service</li>
-              <li className="opacity-60 hover:opacity-100">Company</li>
-              <li className="opacity-60 hover:opacity-100">Career</li>
-              <li className="opacity-60 hover:opacity-100">Blog</li>
+          <div className="flex items-center gap-8 ">
+             <ul className="flex flex-row items-center gap-8 ">
+              <li className="border-t-2  hover:text-orange-300 border-[#FFA155] py-5 cursor-pointer">Home</li>
+              <li className="opacity-60  hover:text-orange-300 opacity-100  cursor-pointer">Service</li>
+              <li className="opacity-60  hover:text-orange-300 opacity-100 cursor-pointer">Company</li>
+              <li className="opacity-60  hover:text-orange-300 opacity-100 cursor-pointer">Career</li>
+              <li className="opacity-60  hover:text-orange-300 opacity-100 cursor-pointer">Blog</li>
+              <li className="opacity-60  hover:text-orange-300 opacity-100 cursor-pointer">contact us</li>
             </ul>
+            <a href="" className="flex flex-row gap-2  hover:text-orange-300">
+              Clone peoject
+              <img src={turn} alt="" />
+              </a>
+          </div>
           </nav>
 
           {/* HERO  I started in here */}
