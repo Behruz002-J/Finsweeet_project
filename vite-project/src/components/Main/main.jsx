@@ -10,7 +10,7 @@
                <div className="lefts flex flex-col">
                   <h4 className="pre-heading">ABOUT US</h4>
                  <div className="text-left">
-                    <h1 className="text-[#232536] text-[48px] leading-[58px]">The company leads entire webdesign process from concept to delivery.</h1>
+                    <h1 className="text-[#232536] text-[48px] leading-[58px] font-semibold">The company leads entire webdesign process from concept to delivery.</h1>
                  </div>
                </div>
                  <div className="text-right">
