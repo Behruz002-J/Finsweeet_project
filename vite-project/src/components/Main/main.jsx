@@ -50,8 +50,8 @@
                     <span className='text-[16px] mt-[4px]'>Project Delivered</span>
                   </div>
                  </div>
-                  <div className="read-us ml-122.5  mt-22.5 ">
-                     <a className='text-[#444CFC] flex flex-row gap-[14px]  hover:text-orange-500' href="">
+                  <div className="read-us ml-122.5  mt-22.5 mr-[10px] ">
+                     <a className='text-[#444CFC] flex flex-row gap-[14px] hover:text-orange-500' href="">
                         Read about us 
                        <img  src={turn} alt="" />
                      </a>

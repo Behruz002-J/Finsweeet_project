@@ -43,7 +43,7 @@ export default function Header() {
                 The entire Finsweet team knows what's good with Webflow and you can too.
               </p>
 
-              <button className="mt-8 flex items-center gap-3 bg-[#444CFC] px-6 py-4">
+              <button className="mt-8 flex items-center gap-3 rounded-xl  rem bg-[#444CFC] px-6 py-4  hover:bg-green-600">
                 Request quote
                 <img src={turn} className="w-5" alt="arrow" />
               </button>
