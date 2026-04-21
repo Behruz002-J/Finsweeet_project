@@ -1,6 +1,6 @@
-import rockt from "../../assets/icons/shuttle.svg";
-import setting from "../../assets/icons/settings.svg";
-import support from "../../assets/icons/support.svg";
+// import rockt from "../../assets/icons/shuttle.svg";
+// import setting from "../../assets/icons/settings.svg";
+// import support from "../../assets/icons/support.svg";
 export default function Expert() {
   return (
     <section className="bg-[#ECF8F9] h-[660px]">
@@ -24,7 +24,7 @@ export default function Expert() {
           <div className="right-expertice mt-[96px] ">
             <div className="rocket w-[515px] h-[140px] bg-[#FFFFFF]  p-[32px] flex gap-4 items-start">
               <div className="w-12 h-12 bg-[#FFE0D3] rounded-full flex items-center justify-center p-[12px]">
-                <img src={rockt} className="w-6 h-6" />
+                <img className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="font-semibold text-lg">On Time Delivery</h3>
@@ -36,7 +36,7 @@ export default function Expert() {
             </div>
             <div className="settings w-[515px] h-[140px] bg-[#FFFFFF]  p-[32px] flex gap-4 items-start">
               <div className="w-12 h-12 bg-[#FFE0D3] rounded-full flex items-center justify-center">
-                <img src={setting} className="w-6 h-6" />
+                <img className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Best Quality</h3>
@@ -49,7 +49,7 @@ export default function Expert() {
 
             <div className="supportt  w-[515px] h-[140px] bg-[#FFFFFF]  p-[32px] flex gap-4 items-start mt-3">
               <div className="w-12 h-12 bg-[#FFE0D3] rounded-full flex items-center justify-center">
-                <img src={support} className="w-6 h-6" />
+                <img className="w-6 h-6" />
               </div>
 
               <div>

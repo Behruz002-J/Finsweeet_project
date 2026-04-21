@@ -1,11 +1,11 @@
-import turn from "../../assets/icons/icon.svg";
-import meet from "../../assets/images/Header_Image.png";
-import logoipsum1 from "../../assets/logos/logoispum.svg";
-import logoipsum2 from "../../assets/logos/Logoipum2.svg";
-import logoipsum3 from "../../assets/logos/logoispum.svg";
-import logoipsum4 from "../../assets/logos/logoispum.svg";
-import logoipsum5 from "../../assets/logos/Logoipsum5.svg";
-import MainLogo from "../../assets/logos/Logo-special.svg";
+// import turn from "../../assets/icons/icon.svg";
+// import meet from "../../assets/images/Header_Image.png";
+// import logoipsum1 from "../../assets/logos/logoispum.svg";
+// import logoipsum2 from "../../assets/logos/Logoipum2.svg";
+// import logoipsum3 from "../../assets/logos/logoispum.svg";
+// import logoipsum4 from "../../assets/logos/logoispum.svg";
+// import logoipsum5 from "../../assets/logos/Logoipsum5.svg";
+// import MainLogo from "../../assets/logos/Logo-special.svg";
 
 export default function Header() {
   return (
@@ -14,7 +14,7 @@ export default function Header() {
         <div className="max-w-[1200px] mx-auto px-4">
           {/* NAVBAR  bu yerdan boshladim*/}
           <nav className="flex justify-between items-center h-20">
-            <img src={MainLogo} alt="logo" />
+            <img  alt="logo" />
             <div className="flex items-center gap-8 ">
               <ul className="flex flex-row items-center gap-8 ">
                 <li className="border-t-2  hover:text-orange-300 border-[#FFA155] py-5 cursor-pointer">
@@ -38,7 +38,7 @@ export default function Header() {
               </ul>
               <a href="" className="flex flex-row gap-2  hover:text-orange-300">
                 Clone peoject
-                <img src={turn} alt="" />
+                <img  alt="" />
               </a>
             </div>
           </nav>
@@ -57,11 +57,11 @@ export default function Header() {
 
               <button className="mt-8 flex items-center gap-3 rounded-xl  rem bg-[#444CFC] px-6 py-4  hover:bg-green-600">
                 Request quote
-                <img src={turn} className="w-5" alt="arrow" />
+                <img  className="w-5" alt="arrow" />
               </button>
             </div>
 
-            <img src={meet} className="max-w-md" alt="meet" />
+            <img  className="max-w-md" alt="meet" />
           </div>
 
           {/* LOGOS  company logos*/}
@@ -72,11 +72,11 @@ export default function Header() {
             </div>
 
             <div className="flex  items-center">
-              <img src={logoipsum1} alt="" />
-              <img src={logoipsum2} alt="" />
-              <img src={logoipsum3} alt="" />
-              <img src={logoipsum4} alt="" />
-              <img src={logoipsum5} alt="" />
+              <img  alt="" />
+              <img  alt="" />
+              <img  alt="" />
+              <img  alt="" />
+              <img  alt="" />
             </div>
           </div>
         </div>
