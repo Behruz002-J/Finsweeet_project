@@ -32,10 +32,10 @@ export default  function Service() {
         </div>
          <div className="management   bg-[#FFFFFF] w-[405px] h-[335px]">
           <div className="mt-[48px] ml-[48px]">
-              <img src={settin} alt="" className="w-[48px] h-[48px] rounded-full object-cover border-blue-500 object-cover"/>
+              <img src={settin} alt="" className="w-12 h-[48px] rounded-full object-cover border-blue-500 object-cover"/>
           </div>
             <h5 className="text-[#000000] font-semibold mt-[16px] pl-[48px]">Technical support</h5>
-            <p className="text-[#5D5F6D] pl-[48px] mt-[8px]">We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
+            <p className="text-[#5D5F6D] pl-12 mt-2">We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
             <div className="flex flex-row pl-[48px] mt-[24px]">
                 <a href="" className="flex items-center gap-2 mt-[24px] text-[#444CFC] hover:text-orange-400">
                  Read more
@@ -58,5 +58,8 @@ export default  function Service() {
         </div>
     </div>
         </section>
+
     )
+
+  
 }
