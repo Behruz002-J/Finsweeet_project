@@ -7,6 +7,8 @@
 // import logoipsum5 from "../../assets/logos/Logoipsum5.svg";
 // import MainLogo from "../../assets/logos/Logo-special.svg";
 
+import Logo from "react"; "/src/assets/logos/Logo-special.svg";
+
 export default function Header() {
   return (
     <header className="bg-[#232536] text-white">
@@ -14,7 +16,7 @@ export default function Header() {
         <div className="max-w-[1200px] mx-auto px-4">
           {/* NAVBAR  bu yerdan boshladim*/}
           <nav className="flex justify-between items-center h-20">
-            <img  alt="logo" />
+            <img src={Logo} alt="logo" />
             <div className="flex items-center gap-8 ">
               <ul className="flex flex-row items-center gap-8 ">
                 <li className="border-t-2  hover:text-orange-300 border-[#FFA155] py-5 cursor-pointer">
