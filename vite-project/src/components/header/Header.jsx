@@ -7,7 +7,7 @@
 // import logoipsum5 from "../../assets/logos/Logoipsum5.svg";
 // import MainLogo from "../../assets/logos/Logo-special.svg";
 
-import Logo from "react"; "/src/assets/logos/Logo-special.svg";
+import Logo from "/src/assets/logos/Logo-special.svg";
 
 export default function Header() {
   return (
