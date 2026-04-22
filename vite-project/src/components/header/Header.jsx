@@ -1,13 +1,11 @@
-// import turn from "../../assets/icons/icon.svg";
-// import meet from "../../assets/images/Header_Image.png";
-// import logoipsum1 from "../../assets/logos/logoispum.svg";
-// import logoipsum2 from "../../assets/logos/Logoipum2.svg";
-// import logoipsum3 from "../../assets/logos/logoispum.svg";
-// import logoipsum4 from "../../assets/logos/logoispum.svg";
-// import logoipsum5 from "../../assets/logos/Logoipsum5.svg";
-// import MainLogo from "../../assets/logos/Logo-special.svg";
-
 import Logo from "/src/assets/logos/Logo-special.svg";
+import Turn from "/src/assets/icons/Icon.svg"
+import Basic from "/src/assets/images/Header_Image.png"
+import Loggo1 from "/src/assets/logos/logoispum.svg"
+import Loggo2 from "/src/assets/logos/Logoipum2.svg"
+import Loggo3 from "/src/assets/logos/Logoipsum3.svg"
+import Loggo4 from "/src/assets/logos/Logoipsum4.svg"
+import Loggo5 from "/src/assets/logos/Logoipsum5.svg"
 
 export default function Header() {
   return (
@@ -40,7 +38,7 @@ export default function Header() {
               </ul>
               <a href="" className="flex flex-row gap-2  hover:text-orange-300">
                 Clone peoject
-                <img  alt="" />
+                <img src = {Turn} alt="" />
               </a>
             </div>
           </nav>
@@ -59,11 +57,11 @@ export default function Header() {
 
               <button className="mt-8 flex items-center gap-3 rounded-xl  rem bg-[#444CFC] px-6 py-4  hover:bg-green-600">
                 Request quote
-                <img  className="w-5" alt="arrow" />
+                <img src = {Turn} className="w-5" alt="arrow" />
               </button>
             </div>
 
-            <img  className="max-w-md" alt="meet" />
+            <img src={Basic} className="max-w-md" alt="meet" />
           </div>
 
           {/* LOGOS  company logos*/}
@@ -74,11 +72,11 @@ export default function Header() {
             </div>
 
             <div className="flex  items-center">
-              <img  alt="" />
-              <img  alt="" />
-              <img  alt="" />
-              <img  alt="" />
-              <img  alt="" />
+              <img src={Loggo1} alt="" />
+              <img src={Loggo2} alt="" />
+              <img src={Loggo3} alt="" />
+              <img src={Loggo4} alt="" />
+              <img src={Loggo5} alt="" />
             </div>
           </div>
         </div>

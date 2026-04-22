@@ -1,9 +1,8 @@
-//  import worker from '../../assets/images/worker-company.png'
-//  import worker2 from '../../assets/images/worker-company2.png'
-//  import worker3 from '../../assets/images/worker-company3.png'
-//  import turn from "../../assets/icons/turn2.svg";
-//  import percent from '../../assets/images/Shape.png'
-
+import Company from "/src/assets/images/worker-company.png"
+import Company2 from "/src/assets/images/worker-company2.png"
+import Company3 from "/src/assets/images/worker-company3.png"
+import Shape from "/src/assets/images/Shape.png"
+import Turn2 from "/src/assets/icons/turn2.svg"
  export default function Main() {
     return (
         <main className="pt-30 pb-24">
@@ -22,39 +21,39 @@
                </div>
                {/* //image list} */}
                <div className="worker-us flex flex-row gap-2.75 mx-auto ml-[120px] mt-[48px]">
-                <img className='w-[418px] h-[446px]'  alt="worker" />
-                <img className='w-[418px] h-[446px]'  alt="worker2" />
-                <img className='w-[418px] h-[446px]'  alt="worker3" />
+                <img src={Company} className='w-[418px] h-[446px]'  alt="worker" />
+                <img src={Company2} className='w-[418px] h-[446px]'  alt="worker2" />
+                <img src={Company3} className='w-[418px] h-[446px]'  alt="worker3" />
                </div>
                {/* mijozlar ko'rsatkich qismi */}
                <div className="about-result flex flex-row justify-center">
                  <div className="diagram flex flex-row gap-16.5 mt-[48px]">
                    <div className="pr-del">
                      <h1 className='text-[36px]'>1560+</h1>
-                    <img alt="" />
+                    <img src={Shape} alt="" />
                     <span>Project Delivered</span>
                   </div>
                   <div className="profes">
                          <h1 className='text-[36px]'>100+</h1>
-                   <img  alt="" />
+                   <img src={Shape} alt="" />
 
                     <span>Project Delivered</span>
                   </div>
                   <div className="happy">
                          <h1 className='text-[36px]'>950+</h1>
-                    <img  alt="" />
+                    <img src={Shape} alt="" />
                     <span>Project Delivered</span>
                   </div>
                   <div className="experience">
                          <h1 className='text-[36px]'>10 yrs</h1>
-                    <img  alt="" />
+                    <img src={Shape} alt="" />
                     <span className='text-[16px] mt-[4px]'>Project Delivered</span>
                   </div>
                  </div>
                   <div className="read-us ml-122.5  mt-22.5 mr-[10px] ">
                      <a className='text-[#444CFC] flex flex-row gap-[14px] hover:text-orange-500' href="">
                         Read about us 
-                       <img alt="" />
+                       <img src={Turn2} alt="" />
                      </a>
                   </div>
                </div>
